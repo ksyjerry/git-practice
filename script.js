@@ -4,3 +4,5 @@ let computer = Math.floor(Math.random() * 3);
 
 console.log(user, computer);
 
+document.getElementById("result").innerText = user;
+document.getElementById("result").innerText = computer;
