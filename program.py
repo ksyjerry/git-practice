@@ -1,3 +1,5 @@
+import random
+
 print("Hello World")
 
 def game():
@@ -8,6 +10,8 @@ def game():
     print(user, computer)
 
 game()
+
+
 
 
 
