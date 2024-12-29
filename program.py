@@ -1,3 +1,5 @@
+import random
+
 print("Hello World")
 
 def game():
@@ -7,7 +9,11 @@ def game():
     computer = random.randint(0, 2)
     print(user, computer)
 
-game()
+if __name__ == "__main__":
+    game()
+
+
+
 
 
 
